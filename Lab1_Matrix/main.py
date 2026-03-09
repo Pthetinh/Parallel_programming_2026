@@ -56,6 +56,7 @@ def plot_timing(timing_file="timing_results.txt"):
 
     plt.figure()
     plt.plot(df["Size"], df["Time_ms"], marker="o")
+    plt.xticks(df["Size"])
     plt.xlabel("Matrix Size")
     plt.ylabel("Time (ms)")
     plt.title("Matrix Multiplication Time vs Size")
@@ -65,7 +66,7 @@ def plot_timing(timing_file="timing_results.txt"):
 
 
 def main():
-    sizes = [100, 200, 300, 400, 500, 1000]
+    sizes = [200, 400, 800, 1200, 1600, 2000]
 
     all_ok = True
     for s in sizes:
