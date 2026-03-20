@@ -65,21 +65,6 @@ def main():
         print("Congratulation, all tests were passed!")
     else:
         print("Some tests failed!")
-    # for s in sizes:
-    #     try:
-    #         ok = check_one(s, base_dir=".")
-    #         print(f"Size {s}: {'PASS' if ok else 'FAIL'}")
-    #         all_ok = all_ok and ok
-    #     except Exception as e:
-    #         print(f"Size {s}: ERROR -> {e}")
-    #         all_ok = False
-
-    # if all_ok:
-    #     print("Congratulation, all tests were passed!")
-    # else:
-    #     print("Some tests failed!")
-
-
 
 if __name__ == "__main__":
     main()
