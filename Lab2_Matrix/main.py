@@ -62,9 +62,9 @@ def main():
                 all_ok = False
     
     if all_ok:
-        print("Congratulation, all tests were passed!")
+        print("🔥Congratulation, all tests were passed!")
     else:
-        print("Some tests failed!")
+        print("❌ Some tests failed!🔥")
 
 if __name__ == "__main__":
     main()
