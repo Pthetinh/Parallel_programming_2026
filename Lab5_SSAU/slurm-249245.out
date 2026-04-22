@@ -1,0 +1,6 @@
+Size: 200, Processes: 1, Time: 0.06025 s
+Size: 400, Processes: 1, Time: 0.386034 s
+Size: 800, Processes: 1, Time: 2.45155 s
+Size: 1200, Processes: 1, Time: 7.93459 s
+Size: 1600, Processes: 1, Time: 26.7636 s
+Size: 2000, Processes: 1, Time: 36.0991 s
